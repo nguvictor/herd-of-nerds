@@ -11,9 +11,8 @@ const path = require('path');
 //array of messages
 
 function processChat(files,channelName){
-    fs.appendFileSync('output.txt', '#'+channelName + '\n', function (err) {
+    fs.appendFileSync('chatlog.txt', '#'+channelName + '\n', function (err) {
         if (err) return console.log(err);
-        console.log('Hello World > helloworld.txt');
     });
 
     files.forEach(function(messages){
