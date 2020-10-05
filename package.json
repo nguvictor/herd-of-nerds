@@ -2,6 +2,9 @@
   "name": "herd-of-nerds",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Dante and Victor",
-  "license": "MIT"
+  "author": "Dante and Victorgit ",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
 }
