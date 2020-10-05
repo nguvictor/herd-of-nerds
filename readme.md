@@ -1,2 +1,2 @@
-### How to build
-yarn install
+### Read me
+formatter: contains script to format training data
